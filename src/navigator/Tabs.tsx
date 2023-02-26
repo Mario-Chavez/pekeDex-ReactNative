@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, Platform} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import {Navigator, RootStackParams} from './Navigator';
+import {Navigator} from './Navigator';
 import SearchScreen from '../screens/SearchScreen';
 import Icon from 'react-native-vector-icons/Ionicons';
 
@@ -28,7 +28,6 @@ export const Tabs = () => {
         },
       }}>
       <Tab.Screen
-        /* ver aqui mañana el navigator */
         name="HomeScreen"
         component={Navigator}
         options={{
