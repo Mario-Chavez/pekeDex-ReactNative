@@ -14,6 +14,7 @@ export const Tabs = () => {
         backgroundColor: 'white',
       }}
       screenOptions={{
+        headerShown: false,
         tabBarActiveTintColor: '#5856d6',
         tabBarLabelStyle: {
           marginBottom: Platform.OS === 'ios' ? 0 : 10,
